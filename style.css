@@ -1,0 +1,92 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+}
+body{
+      max-width: 100vw;
+      max-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right bottom, #ffa585, #45c5d8);
+      color: #fff;
+}
+.container{
+      margin-top: 140px;
+      border: 1px solid #fff;
+      border-radius: 10px;
+      padding: 28px 32px;
+      flex-direction: column;
+      background: transparent;
+      box-shadow: 8px 8px 4px #909090,8px 8px 0px;
+
+}
+.container h1{
+      font-size: 1.8rem;
+      margin-block: 8px;
+}
+.inputBox{
+      position: relative;
+}
+.inputBox span{
+      position: absolute;
+      margin-top: 16px;
+     right: 16px;
+     color: #000;
+     cursor: pointer;
+}
+.passBox{
+      background-color: #fff;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      width: 300px;
+      font-size: 17px;
+      padding: 8px;
+      /* margin-block :- top or bottom se margin ke liye and margin-inlineL : - left and right se margin ke liye */
+      margin-block: 8px; 
+
+}
+.rangee{
+      margin-block: 8px; 
+      width: 100%;
+}
+.row{
+      display: flex;
+      margin-block: 8px;
+}
+.row p,.row label{
+/* flex-basis ke throuh p tag 100% space cover kr lega to bacha huva span ko milega */
+      flex-basis: 100%; 
+      font-size: 18px;
+}
+.row input[type="checkbox"]{
+      width: 20px;
+      height: 20px;
+}
+.strength{
+      background-color: red;
+      height: 20px;
+      width: 20px;
+      border: none;
+      border-radius: 10px;
+      
+}
+.genBtn{
+      margin-block: 20px;
+      width: 100%;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      background-color: #1212dd;
+      color: #fff;
+      padding: 10px;
+      font-size: 17px;
+      font-weight: 500px;
+}
+.genBtn:hover{
+      background-color: #6565dc;
+}
+
